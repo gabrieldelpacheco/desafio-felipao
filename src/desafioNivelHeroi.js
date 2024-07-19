@@ -1,28 +1,28 @@
-let nomeHeroi = "Gabriel";
-let xpDoHeroi = 5000;
-let nivel ="está no nivel de ";
-let mensagemHeroi = "O Herói de nome ";
-let contador = 0;
+let nameHeroi = "Gabriel";
+let xpHero = 5000;
+let level ="está no level de ";
+let levelMessage = "O Herói de nome ";
+let counter = 0;
 do {
-    if (xpDoHeroi < 1000) {
-        console.log(mensagemHeroi +" "+ nomeHeroi+" "+nivel+" ferro.");
-    } else if(xpDoHeroi >=1001 && xpDoHeroi <= 2000){
-        console.log(mensagemHeroi+" "+nomeHeroi+" "+nivel+" bronze.");
-    } else if(xpDoHeroi >=2001 && xpDoHeroi <=5000) {
-        console.log(mensagemHeroi+" "+nomeHeroi+" "+nivel+" prata.");
-    } else if(xpDoHeroi >= 6001 && xpDoHeroi <= 7000){
-        console.log(mensagemHeroi+" "+nomeHeroi+" "+nivel+" ouro.");
-    } else if(xpDoHeroi >= 7001 && xpDoHeroi <= 8000){
-        console.log(mensagemHeroi+" "+nomeHeroi+" "+nivel+" platina.");
-    } else if (xpDoHeroi >= 8001 && xpDoHeroi <= 9000) {
-        console.log(mensagemHeroi+" "+nomeHeroi+" "+nivel+" ascendente.");
-    } else if(xpDoHeroi >= 9001 && xpDoHeroi <= 10000){
-        console.log(mensagemHeroi+" "+nomeHeroi+" "+nivel+" imortal.");
+    if (xpHero < 1000) {
+        console.log(levelMessage +" "+ nameHeroi+" "+level+" ferro.");
+    } else if(xpHero >=1001 && xpHero <= 2000){
+        console.log(levelMessage+" "+nameHeroi+" "+level+" bronze.");
+    } else if(xpHero >=2001 && xpHero <=5000) {
+        console.log(levelMessage+" "+nameHeroi+" "+level+" prata.");
+    } else if(xpHero >= 6001 && xpHero <= 7000){
+        console.log(levelMessage+" "+nameHeroi+" "+level+" ouro.");
+    } else if(xpHero >= 7001 && xpHero <= 8000){
+        console.log(levelMessage+" "+nameHeroi+" "+level+" platina.");
+    } else if (xpHero >= 8001 && xpHero <= 9000) {
+        console.log(levelMessage+" "+nameHeroi+" "+level+" ascendente.");
+    } else if(xpHero >= 9001 && xpHero <= 10000){
+        console.log(levelMessage+" "+nameHeroi+" "+level+" imortal.");
     } else {
-        console.log(mensagemHeroi+" "+nomeHeroi+" "+nivel+" radiante.");
+        console.log(levelMessage+" "+nameHeroi+" "+level+" radiante.");
     }
-    contador++;
-} while (contador == 0);
+    counter++;
+} while (counter == 0);
 
 /* menor que 1.000 = ferro;
 entre 1.001 e 2.000 = bronze;
